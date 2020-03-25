@@ -1,0 +1,68 @@
+.bg
+{
+/*  background-image:url("tenor.gif");*/
+    
+    background-color: #2F2F31;
+    background-repeat: no-repeat;
+    width:100%
+}
+
+#change
+{
+    background-color: #2F2F31;
+    margin-top: 50px;
+    
+}
+#log h2
+{
+    color: white;
+}
+#log
+{
+/*    border: 3px solid white;*/
+    padding: 30px 40px;
+   margin-top: 25px;
+
+    -webkit-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+    -mox-box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+    box-shadow: -5px 2px 62px 8px rgba(0,0,0,0.75);
+
+}
+
+#log h1
+{
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+label
+{
+    font-size: 20px;
+    color: white;
+    
+}
+textarea
+{
+    resize: none;
+}
+
+img
+{
+    width: 240px;
+    height: 150px;
+}
+
+
+
+#change input[type="text"]:focus,
+#change input[type="email"]:focus,
+#change input[type="password"]:focus,
+#change input[type="number"]:focus
+{
+    width: 350px;
+    border-color: brown;
+    border-radius: 24px;
+    
+}
